@@ -1,0 +1,89 @@
+.car1{
+    width: 40%;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+    transition: .4s;
+   
+    
+    
+}
+.car1:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-10px);
+}
+.car img{
+    
+    border-radius: 20px;
+    
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.car p{
+    text-align: center;
+    color: wheat;
+    padding-top: 0 8px;
+    
+}
+.car h6{
+    font-size: 26px;
+    text-align: center;
+
+    margin: 0;
+}.car{
+    display: flex;
+    gap: 40px;
+}
+.car img{
+    width: 150px;
+    height: 100px;
+}
+.c2 img{
+    width: 150px;
+    height: 100px;
+}
+.c2{
+    width: 40%;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    transition: .4s;
+    background: transparent;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.75);
+}
+.c2:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+}
+.c1 img{
+    
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.c1 p{
+    text-align: center;
+    color: wheat;
+    padding-top: 0 8px;
+
+}
+.c1 h6{
+    font-size: 30px;
+    text-align: center;
+    
+    margin: 0;
+}.c1{
+    display: flex;
+    gap: 40px;
+}

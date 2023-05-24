@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-size: cover;
+   background-attachment: fixed;
+   
+   background-image: url(photo-1492144534655-ae79c964c9d7.jpeg);
+   background-size: cover;
+  
+}
+div.main{
+   width: 300px;
+   margin-left: 0px;
+
+}
+.nithil{
+   padding-top: 50px;
+}
+h2{
+   margin-top: 50px;
+   margin-left: 30px;
+   font-family: sans-serif;
+}
+div.register{
+   height: 400px;
+   background-color: white(0,0,0,0.5);
+   width: 90%;
+   font-size: 25px;
+   border-radius: 10px;
+   border:1px soid rgba(255,255, 255, 0.3);
+   box-shadow: 2px 2px 1580px
+   rgba(0,0,0,0.3);
+   color: #fff;
+   padding: 20px;
+}
+form#register{
+   margin: 40px;
+}
+label{
+   font-family: sans-serif;
+   font-size: 10px;
+   font-style: italic;
+}
+
+#flog
+{
+   color: white;
+   font-size: 10px;
+
+}
+.register button{
+   border-style: none;
+   background-color: black;
+   position: relative;
+   width: 50px;
+   height: 25px;
+   bottom: 1px;
+   color: #fff;
+   border-radius: 6px;
+   cursor: pointer;
+}
+.si{
+   margin-top: -20px;
+}

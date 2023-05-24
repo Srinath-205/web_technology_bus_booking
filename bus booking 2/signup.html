@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sign.css">
+    <script src="signup.js"></script>
+    
+</head>
+<body>
+    <div class="si">
+    <div class="main form-group">
+        <div class="register form-group"> 
+           
+            <form id="register" method="post" name="myform" class="form-inline">
+                <h3>Register here</h3>
+            <label class="nithil">Name: </label>
+            <br>
+            <input type="text" name="name"
+            id="name" placeholder="Name">
+            <br>
+            <label>Email : </label>
+            <br>
+            <input type="email" name="email"
+            id="email" placeholder="Email">
+            <br>
+            <label>Phone no :</label>
+            <br><input type="tel" name="Phone"
+            id="phone" placeholder="">
+            <br>
+            <label>DOB :</label>
+            <br><input type="date" name="date"
+            id="dob" placeholder="" required>
+            <br>
+            <label> Set Password :</label>
+            <br>
+            <input type="password" name="password" id="password"
+            >
+            <br>
+            <label>Confirm Passsword :</label>
+            <br>
+            <input type="password" name="password1" id="password1"
+            >
+            <br>
+            <label>Gender : </label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender"id="male"> 
+            &nbsp;
+            <span id="flog">Male</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender"
+            id="gender1">
+            &nbsp;
+            <span id="flog">Female</span>
+            <br>
+            <div class="form-group">
+                
+            <button type="submit" onclick="return validateform()"formaction="http://localhost:3000/save"><a >sign in</a></button>
+           <input class="btn btn-primary" id="reset" type="reset" onclick="return rese()">
+        </div>
+             
+            </form>
+
+
+        </div>
+    </div>
+    </div>
+    <script src="node.js"></script>
+</body>
+</html>
